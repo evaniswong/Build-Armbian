@@ -9,4 +9,4 @@ jobs:
     - uses: actions/checkout@master
     - name: Run a one-line script
       run: |
-        ./compile.sh BOARD="aml-g12" BRANCH="current" RELEASE="eoan" KERNEL_ONLY="no" KERNEL_CONFIGURE="no" INSTALL_HEADERS="yes" BUILD_DESKTOP="no" BUILD_MINIMAL="yes"
+        ./compile.sh BOARD="aml-s9xxx" BRANCH="current" RELEASE="eoan" KERNEL_ONLY="no" KERNEL_CONFIGURE="no" INSTALL_HEADERS="yes" BUILD_DESKTOP="no" BUILD_MINIMAL="yes"
