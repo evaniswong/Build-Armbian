@@ -226,3 +226,4 @@ else
 	# shellcheck source=lib/main.sh
 	source "${SRC}"/lib/main.sh
 fi
+
